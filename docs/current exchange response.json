@@ -1,0 +1,276 @@
+{
+    "exchange_rates": {
+        "$": {
+            "table": "A",
+            "date": "2023-05-08",
+            "number": "087/A/NBP/2023",
+            "uid": "23a087"
+        },
+        "mid-rate": [
+            {
+                "_": "2.8078",
+                "$": {
+                    "currency": "Australian Dollar",
+                    "units": "1",
+                    "code": "AUD"
+                }
+            },
+            {
+                "_": "0.1222",
+                "$": {
+                    "currency": "Baht",
+                    "units": "1",
+                    "code": "THB"
+                }
+            },
+            {
+                "_": "0.8355",
+                "$": {
+                    "currency": "Brazilian Real",
+                    "units": "1",
+                    "code": "BRL"
+                }
+            },
+            {
+                "_": "2.3351",
+                "$": {
+                    "currency": "Bulgarian Lev",
+                    "units": "1",
+                    "code": "BGN"
+                }
+            },
+            {
+                "_": "3.0994",
+                "$": {
+                    "currency": "Canadian Dollar",
+                    "units": "1",
+                    "code": "CAD"
+                }
+            },
+            {
+                "_": "0.5213",
+                "$": {
+                    "currency": "Chilean Peso",
+                    "units": "100",
+                    "code": "CLP"
+                }
+            },
+            {
+                "_": "0.1949",
+                "$": {
+                    "currency": "Czech Koruna",
+                    "units": "1",
+                    "code": "CZK"
+                }
+            },
+            {
+                "_": "0.6132",
+                "$": {
+                    "currency": "Danish Krone",
+                    "units": "1",
+                    "code": "DKK"
+                }
+            },
+            {
+                "_": "4.5671",
+                "$": {
+                    "currency": "Euro",
+                    "units": "1",
+                    "code": "EUR"
+                }
+            },
+            {
+                "_": "1.2247",
+                "$": {
+                    "currency": "Forint",
+                    "units": "100",
+                    "code": "HUF"
+                }
+            },
+            {
+                "_": "0.5273",
+                "$": {
+                    "currency": "Hong Kong Dollar",
+                    "units": "1",
+                    "code": "HKD"
+                }
+            },
+            {
+                "_": "0.1120",
+                "$": {
+                    "currency": "Hryvnia",
+                    "units": "1",
+                    "code": "UAH"
+                }
+            },
+            {
+                "_": "3.0427",
+                "$": {
+                    "currency": "Iceland Krona",
+                    "units": "100",
+                    "code": "ISK"
+                }
+            },
+            {
+                "_": "5.0603",
+                "$": {
+                    "currency": "Indian Rupee",
+                    "units": "100",
+                    "code": "INR"
+                }
+            },
+            {
+                "_": "0.9327",
+                "$": {
+                    "currency": "Malaysian Ringgit",
+                    "units": "1",
+                    "code": "MYR"
+                }
+            },
+            {
+                "_": "0.2333",
+                "$": {
+                    "currency": "Mexican Peso",
+                    "units": "1",
+                    "code": "MXN"
+                }
+            },
+            {
+                "_": "1.1385",
+                "$": {
+                    "currency": "New Israeli Shekel",
+                    "units": "1",
+                    "code": "ILS"
+                }
+            },
+            {
+                "_": "2.6167",
+                "$": {
+                    "currency": "New Zealand Dollar",
+                    "units": "1",
+                    "code": "NZD"
+                }
+            },
+            {
+                "_": "0.3941",
+                "$": {
+                    "currency": "Norwegian Krone",
+                    "units": "1",
+                    "code": "NOK"
+                }
+            },
+            {
+                "_": "0.0749",
+                "$": {
+                    "currency": "Philippine Peso",
+                    "units": "1",
+                    "code": "PHP"
+                }
+            },
+            {
+                "_": "5.2297",
+                "$": {
+                    "currency": "Pound Sterling",
+                    "units": "1",
+                    "code": "GBP"
+                }
+            },
+            {
+                "_": "0.2261",
+                "$": {
+                    "currency": "Rand",
+                    "units": "1",
+                    "code": "ZAR"
+                }
+            },
+            {
+                "_": "0.9274",
+                "$": {
+                    "currency": "Romanian Leu",
+                    "units": "1",
+                    "code": "RON"
+                }
+            },
+            {
+                "_": "2.8152",
+                "$": {
+                    "currency": "Rupiah",
+                    "units": "10000",
+                    "code": "IDR"
+                }
+            },
+            {
+                "_": "3.1240",
+                "$": {
+                    "currency": "Singapore Dollar",
+                    "units": "1",
+                    "code": "SGD"
+                }
+            },
+            {
+                "_": "0.4071",
+                "$": {
+                    "currency": "Swedish Krona",
+                    "units": "1",
+                    "code": "SEK"
+                }
+            },
+            {
+                "_": "4.6572",
+                "$": {
+                    "currency": "Swiss Franc",
+                    "units": "1",
+                    "code": "CHF"
+                }
+            },
+            {
+                "_": "0.2121",
+                "$": {
+                    "currency": "Turkish Lira",
+                    "units": "1",
+                    "code": "TRY"
+                }
+            },
+            {
+                "_": "4.1384",
+                "$": {
+                    "currency": "US Dollar",
+                    "units": "1",
+                    "code": "USD"
+                }
+            },
+            {
+                "_": "0.3131",
+                "$": {
+                    "currency": "Won",
+                    "units": "100",
+                    "code": "KRW"
+                }
+            },
+            {
+                "_": "3.0662",
+                "$": {
+                    "currency": "Yen",
+                    "units": "100",
+                    "code": "JPY"
+                }
+            },
+            {
+                "_": "0.5982",
+                "$": {
+                    "currency": "Yuan Renminbi",
+                    "units": "1",
+                    "code": "CNY"
+                }
+            },
+            {
+                "_": "5.6036",
+                "$": {
+                    "currency": "SDR Int'l Monetary Fund (I.M.F.)",
+                    "units": "1",
+                    "code": "XDR"
+                }
+            }
+        ]
+    }
+}
