@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: Your API Documentation
+  version: 1.0.0
+  description: API documentation for your Node.js application
+paths:
+  /api/exchange:
+    get:
+      summary: Get currency exchange rates
+      description: Returns all available data for currency exchange rates
+      responses:
+        '200':
+          description: OK
+        '500':
+          description: Error fetching XML or Error parsing XML
