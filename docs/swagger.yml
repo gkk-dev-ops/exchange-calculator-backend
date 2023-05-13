@@ -13,3 +13,44 @@ paths:
           description: OK
         '500':
           description: Error fetching XML or Error parsing XML
+  /api/availableCurrencies:
+    get:
+      summary: Get currencies available in api
+      description: Returns all available currencies list
+      responses:
+        '200':
+          description: OK
+  /api/exchange/(currency)/(currency2):
+   get:
+      summary: Get Exchange Rate
+      description: Retrieves the exchange rate between two currencies
+      parameters:
+        - name: currency
+          in: path
+          description: ISO4217 currency code of the base currency
+          required: true
+          type: string
+        - name: currency2
+          in: path
+          description: ISO4217 currency code of the target currency
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              currency:
+                type: string
+                description: ISO4217 currency code of the base currency
+              currency2:
+                type: string
+                description: ISO4217 currency code of the target currency
+              exchangeRate:
+                type: number
+                description: Exchange rate between the base and target currencies
+        '404':
+          description: Currency not found
+        '500':
+          description: Failed to process exchange rate
