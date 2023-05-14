@@ -2,9 +2,10 @@ const apiRouter = require("./routes/api");
 const swaggerUi = require("swagger-ui-express");
 const yaml = require("yamljs");
 const express = require("express");
+const dotenv = require("dotenv");
 
 const app = express();
-const port = 3000;
+const port = dotenv.config().parsed.PORT || 3000;
 const swaggerDocument = yaml.load("docs/swagger.yml");
 
 app.use(express.static("public"));
