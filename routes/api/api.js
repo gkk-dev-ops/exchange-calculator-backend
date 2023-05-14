@@ -2,8 +2,8 @@ const express = require("express");
 const router = express.Router();
 
 const axios = require("axios");
-const availableCurrencies = require("../config/availableCurrencies.json");
-const utils = require("../utils/utils");
+const availableCurrencies = require("../../config/availableCurrencies.json");
+const utils = require("../../utils/utils");
 
 router.get("/availableCurrencies", (req, res) => {
   res.status(200).send(availableCurrencies);
