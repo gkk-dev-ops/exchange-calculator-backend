@@ -1,10 +1,10 @@
-const fs = require('fs');
-const availableCurrenciesPath = './config/availableCurrencies.json'
+const fs = require("fs");
+const availableCurrenciesPath = "./config/availableCurrencies.json";
 
 // Read array from file
-fs.readFile(availableCurrenciesPath, 'utf8', (err, data) => {
+fs.readFile(availableCurrenciesPath, "utf8", (err, data) => {
   if (err) {
-    console.error('Error reading file:', err);
+    console.error("Error reading file:", err);
     return;
   }
 
@@ -15,12 +15,11 @@ fs.readFile(availableCurrenciesPath, 'utf8', (err, data) => {
 
   // Output unique array
   const output = JSON.stringify(uniqueArray);
-  fs.writeFile(availableCurrenciesPath, output, 'utf8', (err) => {
+  fs.writeFile(availableCurrenciesPath, output, "utf8", (err) => {
     if (err) {
-      console.error('Error writing file:', err);
+      console.error("Error writing file:", err);
       return;
     }
     console.log(`Unique array has been written to ${availableCurrenciesPath}`);
   });
-
 });
